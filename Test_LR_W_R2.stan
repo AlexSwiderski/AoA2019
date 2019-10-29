@@ -15,8 +15,8 @@ model {
   // Prior model
   for (m in 1:M)
   beta[m] ~ normal(0,5);
-  alpha ~ normal(0,3);
-  sigma ~ normal(0,3);
+  alpha ~ normal(0,5);
+  sigma ~ normal(0,5);
   
   //observational modekl
   for (n in 1:N)
